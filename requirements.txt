@@ -1,8 +1,13 @@
 fastapi
 uvicorn
 pydantic
+gunicorn
+<<<<<<< HEAD
 recharts
 gunicorn
 numpy
 matplotlib
 pandas
+=======
+
+>>>>>>> d994c7eb4cf887686a29d0f5d6892a33f78fee5e
