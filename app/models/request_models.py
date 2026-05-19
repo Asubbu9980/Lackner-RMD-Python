@@ -7,6 +7,5 @@ class RmdRequest(BaseModel):
     tax_Rate: float
     year_Birth_Owner: int
     year_Birth_Beny: int
-    date_Death_Owner: Optional[str] = None
-    plan: str
-    scenario: str
+    plan: Optional[str] = "IRA"
+    scenario: Optional[str] = None
